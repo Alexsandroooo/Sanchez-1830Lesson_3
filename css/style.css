@@ -1,0 +1,78 @@
+/* Обнуление */
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+
+/* Стили	 */
+
+header {
+	color: salmon;
+}
+.title {
+	color: slateblue;
+}
+p span {
+	color: yellowgreen;
+}
+#block {
+	color: midnightblue;
+}
+main div {
+	color: firebrick;
+}
+.main .spisok__iner {
+	color: black;
+}
+.spisol__iner,
+h2 {
+	color: fuchsia;
+}
+.spisok li {
+	color: violet;
+}
+.dea li {
+	color: peru;
+}
+.spisok__iner,
+.colors {
+	color: mediumturquoise;
+}
+.text {
+	color: palegreen;
+}
+.inner li {
+	color: springgreen;
+}
+.inner ul {
+	color: tomato;
+}
+footer {
+	color: skyblue;
+}
